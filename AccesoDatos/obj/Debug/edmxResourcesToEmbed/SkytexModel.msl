@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="developModelStoreContainer" CdmEntityContainer="developEntities">
+    <FunctionImportMapping FunctionImportName="sp_WebAppProdPlan" FunctionName="developModel.Store.sp_WebAppProdPlan">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="developModel.sp_WebAppProdPlan_Result">
+          <ScalarProperty Name="resultado" ColumnName="resultado" />
+          <ScalarProperty Name="error" ColumnName="error" />
+          <ScalarProperty Name="mensaje" ColumnName="mensaje" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>
