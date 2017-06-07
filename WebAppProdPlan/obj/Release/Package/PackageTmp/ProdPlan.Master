@@ -1,0 +1,31 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="ProdPlan.master.cs" Inherits="WebAppProdPlan.ProdPlan" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Aplicación interactiva de planeación y producción</title>
+
+    <link rel="shortcut icon" href="Media/skytex.ico" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link type="text/css" rel="stylesheet" href="<%=ResolveUrl("Content/bootstrap.css")%>" />
+
+    <script type="text/javascript" src="<%= ResolveClientUrl("Scripts/jquery-1.7.1.min.js") %>"></script>
+    <script type="text/javascript" src="<%= ResolveClientUrl("Scripts/highcharts.js") %>"></script>
+    <script type="text/javascript" src="<%= ResolveClientUrl("Scripts/highcharts-3d.js") %>"></script>
+    <script type="text/javascript" src="<%= ResolveClientUrl("Scripts/grid-light.js") %>"></script>
+    <script type="text/javascript" src="<%= ResolveClientUrl("Scripts/graficoApProdPlan.js") %>"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
