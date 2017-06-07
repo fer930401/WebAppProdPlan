@@ -1,0 +1,11 @@
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppProdPlan\LogicaNegocio\bin\Release\LogicaNegocio.dll
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppProdPlan\LogicaNegocio\bin\Release\LogicaNegocio.pdb
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppProdPlan\LogicaNegocio\bin\Release\AccesoDatos.dll
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppProdPlan\LogicaNegocio\bin\Release\Entidades.dll
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppProdPlan\LogicaNegocio\bin\Release\EntityFramework.dll
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppProdPlan\LogicaNegocio\bin\Release\AccesoDatos.pdb
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppProdPlan\LogicaNegocio\bin\Release\Entidades.pdb
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppProdPlan\LogicaNegocio\bin\Release\EntityFramework.xml
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppProdPlan\LogicaNegocio\obj\Release\LogicaNegocio.csprojResolveAssemblyReference.cache
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppProdPlan\LogicaNegocio\obj\Release\LogicaNegocio.dll
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppProdPlan\LogicaNegocio\obj\Release\LogicaNegocio.pdb
