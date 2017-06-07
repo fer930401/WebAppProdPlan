@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="developModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="developEntities" annotation:LazyLoadingEnabled="true">
+    <FunctionImport Name="sp_WebAppProdPlan" ReturnType="Collection(developModel.sp_WebAppProdPlan_Result)">
+      <Parameter Name="cve_dispo" Mode="In" Type="String" />
+      <Parameter Name="kilos" Mode="In" Type="Decimal" />
+      <Parameter Name="piezas" Mode="In" Type="Decimal" />
+      <Parameter Name="ele_cve" Mode="In" Type="String" />
+      <Parameter Name="tina" Mode="In" Type="Int32" />
+      <Parameter Name="opc" Mode="In" Type="Int32" />
+    </FunctionImport>
+  </EntityContainer>
+  <ComplexType Name="sp_WebAppProdPlan_Result">
+    <Property Type="Int32" Name="resultado" Nullable="true" />
+    <Property Type="Int32" Name="error" Nullable="true" />
+    <Property Type="String" Name="mensaje" Nullable="true" MaxLength="255" />
+  </ComplexType>
+</Schema>
