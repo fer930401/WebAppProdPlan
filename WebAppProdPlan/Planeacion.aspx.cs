@@ -9,15 +9,15 @@ using System.Web.Services;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using LogicaNegocio;
-using Entidades;
+
 using AccesoDatos;
 
 namespace WebAppProdPlan
 {
     public partial class Planeacion : System.Web.UI.Page
     {
-        string CadenaConecta = @"Data Source=skyhdev3;Initial Catalog=develop;User ID=soludin_develop;Password=dinamico20";
-        //string CadenaConecta = @"Data Source=SQL;Initial Catalog=skytex;User ID=soludin_develop;Password=dinamico20";
+        //string CadenaConecta = @"Data Source=skyhdev3;Initial Catalog=develop;User ID=soludin_develop;Password=dinamico20";
+        string CadenaConecta = @"Data Source=SQL;Initial Catalog=skytex;User ID=soludin_develop;Password=dinamico20";
                     
         LogicaNegocioCls logicaNegocio = new LogicaNegocioCls();
         int? resInsert = 0, resSP = 0, resDelete = 0;
